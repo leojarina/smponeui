@@ -7,6 +7,16 @@
  Email: leojarina@gmail.com
  
  */
+
+ /* Fonts */
+
+    *
+    {
+        font-family: 'Inter', sans-serif;
+    }
+
+ /* Defaults */
+
     .smpOne
     {
         box-sizing: border-box;
@@ -443,4 +453,12 @@
     .smpOne.container.wide
     {
         max-width: 100%;
+    }
+
+/* Section */
+
+    .smpOne.section
+    {
+        width: 100%;
+        box-sizing: border-box;
     }
