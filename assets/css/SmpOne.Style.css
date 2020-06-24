@@ -1,0 +1,446 @@
+ /* 
+
+ SMPOne Kit v1.0
+ Branding Theme
+ Social Media Plus One
+ Written by Leo Jarina
+ Email: leojarina@gmail.com
+ 
+ */
+    .smpOne
+    {
+        box-sizing: border-box;
+    }
+
+/* Texts */
+
+    p, a, li, table, input, button, textarea
+    {
+        font-size: 22px;
+        font-weight: normal;
+    }
+
+/* Texts Appearance */
+
+    .smpOne.textUppercase,
+    .smpOne.textUppercase *
+    {
+        text-transform: uppercase;
+    }
+
+/* Texts Weights */
+
+    .smpOne.textWeight100,
+    .smpOne.textWeight100 *
+    {
+        font-weight: 100;
+    }
+    
+    .smpOne.textWeight200,
+    .smpOne.textWeight200 *
+    {
+        font-weight: 200;
+    }
+    
+    .smpOne.textWeight300,
+    .smpOne.textWeight300 *
+    {
+        font-weight: 300;
+    }
+    
+    .smpOne.textWeight400,
+    .smpOne.textWeight400 *
+    {
+        font-weight: 400;
+    }
+    
+    .smpOne.textWeight500,
+    .smpOne.textWeight500 *
+    {
+        font-weight: 500;
+    }
+
+    .smpOne.textWeight600,
+    .smpOne.textWeight600 *
+    {
+        font-weight: 600;
+    }
+    
+    .smpOne.textWeight700,
+    .smpOne.textWeight700 *
+    {
+        font-weight: 700;
+    }
+    
+    .smpOne.textWeight800,
+    .smpOne.textWeight800 *
+    {
+        font-weight: 800;
+    }
+
+    .smpOne.textWeight900,
+    .smpOne.textWeight900 *
+    {
+        font-weight: 900;
+    }
+
+/* Headings */
+
+    h1, h2, h3, h4, h5, h6
+    {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    h1
+    {
+        font-size: 52px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 1.1;
+    }
+
+    h2
+    {
+        font-size: 46px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 1.2;
+    }
+
+    h3
+    {
+        font-size: 36px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 1.2;
+    }
+
+    h4
+    {
+        font-size: 28px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 1.2;
+    }
+
+    h5
+    {
+        font-size: 22px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 1.2;
+    }
+
+    h6
+    {
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 1.2;
+    }
+
+/* Links */
+
+    a
+    {
+        color: #D81752;
+    }
+
+/* Colors */
+
+    .smpOne.brandColor,
+    .smpOne.brandColor *
+    {
+        color: #D81752;
+    }
+
+    .smpOne.brandDarkColor,
+    .smpOne.brandDarkColor *
+    {
+        color: #922043;
+    }
+
+    .smpOne.brandLightColor,
+    .smpOne.brandLightColor *
+    {
+        color: #F4E8E2;
+    }
+
+    .smpOne.brandAccentColor,
+    .smpOne.brandAccentColor *
+    {
+        color: #54595F;
+    }
+
+/* Paragraph */
+
+    p
+    {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #54595F;
+        letter-spacing: -1px;
+    }
+
+/* Box Rounded */
+
+    .smpOne.boxRounded
+    {
+        border-radius: 10px;
+    }
+
+/* Box Shadow */
+
+    .smpOne.boxShadow
+    {
+        box-shadow: 0 10px 30px rgba(167, 18, 63, 0.1);
+    }
+
+/* Margins */
+
+/* Top  ------------- */
+
+    .smpOne.marginTopSmall
+    {
+        margin-top: 10px;
+    }
+
+    .smpOne.marginTopMedium
+    {
+        margin-top: 20px;
+    }
+
+    .smpOne.marginTopLarge
+    {
+        margin-top: 30px;
+    }
+
+    .smpOne.marginTopXLarge
+    {
+        margin-top: 40px;
+    }
+
+/* Bottom ------------- */
+
+    .smpOne.marginBottomSmall
+    {
+        margin-bottom: 10px;
+    }
+
+    .smpOne.marginBottomMedium
+    {
+        margin-bottom: 20px;
+    }
+
+    .smpOne.marginBottomLarge
+    {
+        margin-bottom: 30px;
+    }
+
+    .smpOne.marginBottomXLarge
+    {
+        margin-bottom: 40px;
+    }
+
+/* Left ------------- */
+
+    .smpOne.marginLeftSmall
+    {
+        margin-left: 10px;
+    }
+
+    .smpOne.marginLeftMedium
+    {
+        margin-left: 20px;
+    }
+
+    .smpOne.marginLeftLarge
+    {
+        margin-left: 30px;
+    }
+
+    .smpOne.marginLeftXLarge
+    {
+        margin-left: 40px;
+    }
+
+/* Right ------------- */
+
+    .smpOne.marginRightSmall
+    {
+        margin-right: 10px;
+    }
+
+    .smpOne.marginRightMedium
+    {
+        margin-right: 20px;
+    }
+
+    .smpOne.marginRightLarge
+    {
+        margin-right: 30px;
+    }
+
+    .smpOne.marginRightXLarge
+    {
+        margin-right: 40px;
+    }
+
+/* Paddings */
+
+/* Top  ------------- */
+
+    .smpOne.paddingTopSmall
+    {
+        padding-top: 10px;
+    }
+
+    .smpOne.paddingTopMedium
+    {
+        padding-top: 20px;
+    }
+
+    .smpOne.paddingTopLarge
+    {
+        padding-top: 30px;
+    }
+
+    .smpOne.paddingTopXLarge
+    {
+        padding-top: 40px;
+    }
+
+/* Bottom ------------- */
+
+    .smpOne.paddingBottomSmall
+    {
+        padding-bottom: 10px;
+    }
+
+    .smpOne.paddingBottomMedium
+    {
+        padding-bottom: 20px;
+    }
+
+    .smpOne.paddingBottomLarge
+    {
+        padding-bottom: 30px;
+    }
+
+    .smpOne.paddingBottomXLarge
+    {
+        padding-bottom: 40px;
+    }
+
+/* Left ------------- */
+
+    .smpOne.paddingLeftSmall
+    {
+        padding-left: 10px;
+    }
+
+    .smpOne.paddingLeftMedium
+    {
+        padding-left: 20px;
+    }
+
+    .smpOne.paddingLeftLarge
+    {
+        padding-left: 30px;
+    }
+
+    .smpOne.paddingLeftXLarge
+    {
+        padding-left: 40px;
+    }
+
+/* Right ------------- */
+
+    .smpOne.paddingRightSmall
+    {
+        padding-right: 10px;
+    }
+
+    .smpOne.paddingRightMedium
+    {
+        padding-right: 20px;
+    }
+
+    .smpOne.paddingRightLarge
+    {
+        padding-right: 30px;
+    }
+
+    .smpOne.paddingRightXLarge
+    {
+        padding-right: 40px;
+    }
+
+/* Inputs */
+    
+    textarea,
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"]
+    {
+        border: 1px solid #dddddd;
+        background: #ffffff;
+        padding: 10px 15px;
+    }
+
+/* Buttons */
+
+    .smpOne.button
+    {
+        display: inline-block;
+        padding: 10px 40px;
+        font-weight: 800;
+        border: 0;
+    }
+
+    .smpOne.button.default
+    {
+        background-color: #D81752;
+        color: #ffffff;
+    }
+    
+    .smpOne.button.defaultReversed
+    {
+        background-color: #ffffff;
+        color: #D81752;
+    }
+
+    .smpOne.button.rounded
+    {
+        border-radius: 4px;
+    }
+
+/* Containers */
+
+    .smpOne.container
+    {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .smpOne.container.default
+    {
+        max-width: 1080px;
+    }
+    
+    .smpOne.container.medium
+    {
+        max-width: 1280px;
+    }
+    
+    .smpOne.container.large
+    {
+        max-width: 1480px;
+    }
+    
+    .smpOne.container.wide
+    {
+        max-width: 100%;
+    }
